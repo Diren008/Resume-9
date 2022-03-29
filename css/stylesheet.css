@@ -1,0 +1,20 @@
+body{
+    color: black;
+    background-color: black;
+}
+
+/* navbar */
+.navbar {
+    background-color: rgb(31, 31, 31);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.nav-link{
+color: #ffffff !important;
+}
+.nav-link a :hover{
+    color: aqua;
+}
+#mylogo{
+    height: 10px;
+}
