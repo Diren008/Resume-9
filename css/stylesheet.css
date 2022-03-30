@@ -1,6 +1,21 @@
 body{
     color: rgb(242, 242, 242);
     background-color: black;
+    font-size: 12px;
+}
+
+   /* site scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: rgb(43, 42, 42);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffe922;
+    border-radius: 50px;
 }
 
 /* navbar */
@@ -40,4 +55,35 @@ color: #ffffff !important;
   .column {
     flex: 75%;
     padding: 5px;
+  }
+
+  /* education */
+  h1 {
+      color: #ffe922;
+      font-size: 18px;
+      padding-left: 25px;
+  }
+
+  .column-3 {
+    flex: 10%;
+    padding-left: 60px;
+    position: relative;
+  }
+
+  .column-4 {
+    flex:10%;
+    padding: 5px;
+  }
+
+  #codespace {
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
+  #vega {
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
+
+  .education {
+      padding-top: 50px;
   }
