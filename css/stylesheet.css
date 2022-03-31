@@ -1,12 +1,13 @@
 body{
     color: rgb(242, 242, 242);
     background-color: black;
-    font-size: 12px;
+    font-size: 15px;
 }
 
    /* site scrollbar */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 8px;
+    height: 9px;
 }
 ::-webkit-scrollbar-track {
     background: rgb(43, 42, 42);
@@ -20,19 +21,31 @@ body{
 
 /* navbar */
 .navbar {
-    background-color: rgb(31, 31, 31);
+    color: #fff;
+    background-color: #1f1f1f;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
+    font-size: 20px;
+    height: 40px;
+    display:flex;justify-content: space-between;
 }
+
+
 .nav-link{
 color: #ffffff !important;
 }
-.nav-link a :hover{
-    color: aqua;
+
+#myNavbar {
+    color: #ffffff;
+    justify-content: right;  
 }
+.active {
+  padding: 10px;
+}
+
 #mylogo{
-    height: 10px;
+    height: 15px;
 }
+
 
 /* into section */
 #background-video{
@@ -43,14 +56,15 @@ color: #ffffff !important;
 
 .row {
     display: flex;
+  
   }
   
   .column-1 {
-    flex: 15%;
+    flex: 17%;
     padding-left: 60px;
     padding-top: 140px;
     position: relative;
-    font-size: 12px;
+    font-size: 20px;
   }
   .column {
     flex: 75%;
@@ -60,7 +74,7 @@ color: #ffffff !important;
   /* education */
   h1 {
       color: #ffe922;
-      font-size: 18px;
+      font-size: 30px;
       padding-left: 25px;
   }
 
@@ -73,11 +87,14 @@ color: #ffffff !important;
   .column-4 {
     flex:10%;
     padding: 5px;
+    font-size: 20px;
   }
 
   #codespace {
       padding-top: 30px;
       padding-bottom: 30px;
+      padding-left: 30px;
+      padding-right: 30px;
   }
   #vega {
       padding-top: 30px;
@@ -87,3 +104,37 @@ color: #ffffff !important;
   .education {
       padding-top: 50px;
   }
+
+h3{
+  text-align: center;
+  color: #ffe922;
+}
+  .carousel-inner {
+    width:200px;
+    justify-content: center;
+
+  }
+
+
+
+
+.row9 {
+text-align: center;
+
+}
+
+
+
+
+
+  footer {
+    background-color: #000000;
+    border: #ffe922 solid;
+    text-align: center;
+    color:#643939 ;
+    height: 60pt;
+    padding-top:  10pt;
+    padding-bottom: 0pt;
+    font-display: black;
+  }
+

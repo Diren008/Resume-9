@@ -14,39 +14,30 @@
   crossorigin="anonymous">
 <!-- StyleSheet -->
   <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-
 </head>
 <body>
  
 <!-- NavBar -->
-<nav class="navbar navbar-expand-md">
-    <div class="container-fluid">
-          <div class="navbar header">
-            <img src="/css/images/Diren Naidoo-02.svg" alt="Diren" id="mylogo">
-            <a class="navbar logo" href=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </div>
-   
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Work Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Skill Set</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
+<nav class="navbar navbar-expand-md navbar-custom flex-row">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><img id="mylogo" src="/css/images/Diren Naidoo-02.svg" alt="Diren Naidoo"> </a>
     </div>
-  </nav>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#education">EDUCATION</a></li>
+        <li class="active"><a href="#">WORK EXPERIENCE</a></li>
+        <li class="active"><a href="#skill-set">SKILL SET</a></li>
+        <li class="active"><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
   
   <!-- Header Section --> 
   <div class="row">
@@ -65,6 +56,7 @@
     <div class="column-3">
       
       <img id="codespace" src="/css/images/codespace-white.png" alt="codespace-white" style="width: 400px;">
+      <br>
       <img  id="vega" src="/css/images/vega-white.png" alt="vega-white" style="width: 400px;">
     </div>
 
@@ -87,6 +79,122 @@
    
    
    
+      
+   
+   
+  <div class="container">
+    <h3 id="skill-set"> SKILL SET</h3>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+    </ol>
+    <div class="row9">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img id="skills" src="/css/images/skills_ai.svg" alt="Illustrator" >
+            <div class="carousel-icon">
+              <p id="descrit">ILLUSTRATOR</p>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+          <img id="skils"  src="/css/images/skills_ps.svg" alt="Photoshop">
+          <p>PHOTOSHOP</p>
+        </div>
+
+        <div class="carousel-item">
+          <img id="skils"  src="/css/images/skills_id.svg" alt="Indesign">
+          <p>InDESIGN</p>
+        </div>
+        
+        <div class="carousel-item">
+          <img id="skils"  src="/css/images/skills_xd.svg" alt="xd">
+          <p>XD</p>
+        </div>
+
+        <div class="carousel-item">
+          <img id="skils"  src="/css/images/skills_css.svg" alt="css">
+          <p>CSS</p>
+        </div>
+
+        <div class="carousel-item">
+          <img id="skils"  src="/css/images/skills_html.svg" alt="html">
+          <p>HTML</p>
+        </div>
+      </div>
+    </div>
+    
+
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+   
+   
+   
+   
+   
+   
+   
+   
+  <!-- contact --> 
+  <section class="form-section p-5" id="contact-section">
+    <h1 id="contact" class="mt-5 mb-4 text-center">Contact Me</h1>
+    <div class="w-50 mx-auto">
+
+      <form action="post">
+
+        <div class="form-group row">
+
+          <div class="col-md-6 p-2">
+            <input type="text" class="form-control" placeholder="Full name">
+          </div>
+
+          <div class="col-md-6 p-2">
+            <input type="email" class="form-control" placeholder="Email Address">
+          </div>
+
+        </div>
+
+        <div class="form-group row">
+
+          <div class="col-md-12 p-2">
+            <input type="text" class="form-control" placeholder="Subject">
+          </div>
+
+        </div>
+
+        <div class="form-group row">
+
+          <div class="col-md-12 p-2">
+            <textarea class="form-control" rows="3" placeholder="Type your message here"></textarea>
+          </div>
+
+        </div>
+
+        <div class="form-group row">
+
+          <div class="col-md-12 text-center p-2">
+            <button type="submit" class="btn btn-primary button-colour" >Send Message</button>
+          </div>
+
+        </div>
+
+    </div>
+
+    </form>
+  </section>
    
    
    
@@ -99,27 +207,19 @@
    
    
    
+  <footer>
+
+<div class="social"> 
+       <a href="https://www.behance.net/Diren8" target="_blank" rel="noopener noreferrer"><img src='/css/images/iconmonstr-behance-yellow.svg' onmouseover="this.src='/css/images/iconmonstr-behance-yellow.svg';" onmouseout="this.src='/css/images/iconmonstr-behance-5.svg';" / width="50pt"></a></a>
+ 
+       <a href="https://www.linkedin.com/in/diren-naidoo-1a8830101//" target="_blank" rel="noopener noreferrer"><img src='/css/images/iconmonstr-linkedin-yellow.svg' onmouseover="this.src='/css/images/iconmonstr-linkedin-yellow.svg';" onmouseout="this.src='/css/images/iconmonstr-linkedin-5.svg';" / width="50pt"></a>
+    
+       <a href="https://www.instagram.com/diren_naidoo/" target="_blank" rel="noopener noreferrer"> <img src='/css/images/iconmonstr-instagram-yellow.svg' onmouseover="this.src='/css/images/iconmonstr-instagram-yellow.svg';" onmouseout="this.src='/css/images/iconmonstr-instagram-15.svg';" / width="50pt"></a>
+      </div>  
+ </footer>
    
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
+
+ 
     <!-- JS, Popper.js, and jQuery -->
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
@@ -137,5 +237,11 @@
         crossorigin="anonymous">
 </script>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
