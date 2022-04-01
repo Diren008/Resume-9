@@ -27,15 +27,19 @@ body{
     font-size: 20px;
     height: 40px;
     display:flex;justify-content: space-between;
+    z-index: 3;
 }
 
+.navbar a{
+  color: #ffe922;
+}
 
-.nav-link{
+.nav-link {
 color: #ffffff !important;
 }
 
 #myNavbar {
-    color: #ffffff;
+    color: #ebebeb;
     justify-content: right;  
 }
 .active {
@@ -46,8 +50,35 @@ color: #ffffff !important;
     height: 15px;
 }
 
+#mylogoalt{
+  height: 15px;
+}
+
+/* media query */
+@media screen and (max-width: 992px) {
+  #mylogo{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #mylogoalt{
+    display: none;
+  }
+}
+
+
+.navbar-toggle {
+  height: 10px;
+  width: 30pt; 
+  justify-content: right !important;
+}
 
 /* into section */
+#intro{
+  padding-bottom: 20px;
+}
+
 #background-video{
     position: relative;
     width: 100%;
@@ -56,13 +87,14 @@ color: #ffffff !important;
 
 .row {
     display: flex;
+    position: relative;
   
   }
   
   .column-1 {
     flex: 17%;
     padding-left: 60px;
-    padding-top: 140px;
+    padding-top: 200px;
     position: relative;
     font-size: 20px;
   }
@@ -105,28 +137,115 @@ color: #ffffff !important;
       padding-top: 50px;
   }
 
+  /* experience */
+
+  
+#workexperience {
+  padding-left: 20px;
+}
+.column-5{
+  padding: 10px;
+  padding-top: 120px;
+  padding-left: 50px;
+  padding-bottom: 200px;
+  font-size: 20px;
+}
+  .column-6 {
+  flex: 10%;
+  padding-top: 90px;
+  justify-content: center;
+  text-align: center;
+}
+
+  #ani img{
+    transition: tranform .7s ease-in-out;
+  }
+
+  #ani a:hover img{
+    transform: rotate(360deg);
+  }
+
+  /* skill section */
 h3{
   text-align: center;
   color: #ffe922;
+  justify-content: center;
+  padding-bottom: 50pt;
+  font-size: 30px;
+  font-weight: bolder;
 }
-  .carousel-inner {
-    width:200px;
+  .carousel-item img {
+    width:20vw !important;
     justify-content: center;
 
   }
+  .myicon {
+    width: 30vw !important;
+    padding-bottom: 30pt;
+  }
 
+.spacing{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
 
-
-
+h4{
+  color: #ffe922;
+  font-size: 30px;
+}
 .row9 {
 text-align: center;
+}
 
+/* modal */
+.modal-header {
+  background-color: #ffe922;
+  color: #000000;
+  justify-content: center;
+}
+h6 {
+  font-size: 30px;
+  justify-content: center;
+}
+.modal-body {
+  color: #000000;
+}
+
+
+.form{
+  background: linear-gradient(-45deg, #000000,#333333, #202020, #000000 );
+  
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 
 
+#end {
+  justify-content: center;
+}
 
+.endimage {
+  display: flex;
+  height: 30px;
+  margin: auto;
+  margin-bottom: auto;
+}
 
+/* footer section */
   footer {
     background-color: #000000;
     border: #ffe922 solid;
@@ -137,4 +256,3 @@ text-align: center;
     padding-bottom: 0pt;
     font-display: black;
   }
-

@@ -1,247 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume 9</title>
+    <!-- Favicon -->
+    <link rel="icon" href="/css/images/Diren0.png">
 
-<!-- Bootstrap StyleSheet -->
-    <link 
-  rel="stylesheet" 
-  href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
-  integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
-  crossorigin="anonymous">
-<!-- StyleSheet -->
-  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-</head>
-<body>
- 
-<!-- NavBar -->
-<nav class="navbar navbar-expand-md navbar-custom flex-row">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#"><img id="mylogo" src="/css/images/Diren Naidoo-02.svg" alt="Diren Naidoo"> </a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#education">EDUCATION</a></li>
-        <li class="active"><a href="#">WORK EXPERIENCE</a></li>
-        <li class="active"><a href="#skill-set">SKILL SET</a></li>
-        <li class="active"><a href="#contact">CONTACT</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-  
-  <!-- Header Section --> 
-  <div class="row">
-    <div class="column-1">
-      <p>Experienced Graphic Designer with a demonstrated history of working in the wholesale industry. Skilled in Adobe Photoshop, Adobe Creative Suite, Adobe Indesign CC, and Adobe Illustrator and basic WordPress. Strong arts and design professional with a BA Honours focused in Creative Brands Communication from Vega School.</p>
-    </div>
+    <!-- Bootstrap StyleSheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <div class="column">
-      <video autoplay muted loop src="/css/video/pexels-rostislav-uzunov-7670836 background1.mp4" id="background-video"></video>
-    </div> 
-  </div>
-   
-  <!-- Content --> 
-     <!--Education --> 
-  <div class="row">
-    <div class="column-3">
-      
-      <img id="codespace" src="/css/images/codespace-white.png" alt="codespace-white" style="width: 400px;">
-      <br>
-      <img  id="vega" src="/css/images/vega-white.png" alt="vega-white" style="width: 400px;">
-    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- StyleSheet -->
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  </head>
 
-    <div class="column-4">
-      <div class="education">
-      <h1 id="education"><strong>EDUCATION</strong></h1>
-     <ul>
-       <li>Web Design (2022) CodeSpace</li>
-       <li>Intro to Web (2022) CodeSpace</li>
-       <li>BA Honours in Creative Brands Communication (2018) Vega School</li>
-       <li>BA in Creative Brands Communications (2016) Vega School</li>
-       <li>Matriculated (2013)</li>
-     </ul>
-    </div>
-    </div>
+  <body>
 
-
-  </div>   
-   
-   
-   
-   
-      
-   
-   
-  <div class="container">
-    <h3 id="skill-set"> SKILL SET</h3>
-
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-    </ol>
-    <div class="row9">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img id="skills" src="/css/images/skills_ai.svg" alt="Illustrator" >
-            <div class="carousel-icon">
-              <p id="descrit">ILLUSTRATOR</p>
-            </div>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-md navbar-custom flex-row">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img id="mylogo" src="/css/images/Diren Naidoo-02.svg" alt="Diren Naidoo">
+            <img id="mylogoalt" src="/css/images/Diren Naidoo-alt.svg" alt="Diren Naidoo alt">
+          </a>
         </div>
-
-        <div class="carousel-item">
-          <img id="skils"  src="/css/images/skills_ps.svg" alt="Photoshop">
-          <p>PHOTOSHOP</p>
-        </div>
-
-        <div class="carousel-item">
-          <img id="skils"  src="/css/images/skills_id.svg" alt="Indesign">
-          <p>InDESIGN</p>
-        </div>
-        
-        <div class="carousel-item">
-          <img id="skils"  src="/css/images/skills_xd.svg" alt="xd">
-          <p>XD</p>
-        </div>
-
-        <div class="carousel-item">
-          <img id="skils"  src="/css/images/skills_css.svg" alt="css">
-          <p>CSS</p>
-        </div>
-
-        <div class="carousel-item">
-          <img id="skils"  src="/css/images/skills_html.svg" alt="html">
-          <p>HTML</p>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#education">EDUCATION</a></li>
+            <li class="active"><a href="#workexperience">WORK EXPERIENCE</a></li>
+            <li class="active"><a href="#skill-set">SKILL SET</a></li>
+            <li class="active"><a href="#contact">CONTACT</a></li>
+          </ul>
         </div>
       </div>
-    </div>
-    
+    </nav>
 
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
+    <!-- Header Section -->
+    <div class="row">
+      <div class="column-1">
+        <img id="intro" src="/css/images/Diren Naidoo-02.svg" alt="my logo">
+        <p>Experienced Graphic Designer with a demonstrated history of working in the wholesale industry. Skilled in
+          Adobe Photoshop, Adobe Creative Suite, Adobe Indesign CC, and Adobe Illustrator and basic WordPress. Strong
+          arts and design professional with a BA Honours focused in Creative Brands Communication from Vega School.</p>
+      </div>
+
+      <div class="column">
+        <video autoplay muted loop src="/css/video/pexels-rostislav-uzunov-7670836 background1.mp4"
+          id="background-video"></video>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <!--Education -->
+    <div class="row">
+      <div class="column-3">
+
+        <img id="codespace" src="/css/images/codespace-white.png" alt="codespace-white" style="width: 400px;">
+        <br>
+        <img id="vega" src="/css/images/vega-white.png" alt="vega-white" style="width: 400px;">
+      </div>
+
+      <div class="column-4">
+        <div class="education">
+          <h1 id="education"><strong>EDUCATION</strong></h1>
+          <ul>
+            <li>Web Design (2022) CodeSpace</li>
+            <li>Intro to Web (2022) CodeSpace</li>
+            <li>BA Honours in Creative Brands Communication (2018) Vega School</li>
+            <li>BA in Creative Brands Communications (2016) Vega School</li>
+            <li>Matriculated (2013)</li>
+          </ul>
+        </div>
+      </div>
+
+
+    </div>
+
+<!--work experience -->
+<div class="row">
+ <div class="column-5">  
+ <h4 id="workexperience"><strong>WORK EXPERIENCE</strong></h4> 
+    <ul>
+      <li>Graphic Designer at JIMBU Media (2017-2021)</li>
+      <li>Graphic Design intern at JIMBU Media (2017)</li>
+    </ul>
+  </div>
+
+  <div class="column-6">
+    
+    <a id="ani" href="https://www.behance.net/Diren8" target="_blank" rel="noopener noreferrer"><img src="/css/images/iconmonstr-behance-5.svg" alt="behance" width="80" height="80"></a></a>
+      <p> Behance work examples</p>
+    <a id="ani" href="https://www.instagram.com/diren_naidoo/" target="_blank" rel="noopener noreferrer"> <img src="/css/images/iconmonstr-instagram-15.svg" alt="instagram"width="80" height="80"></a>
+      <p> Illustration work</p>
+
+  </div>
+
 </div>
-   
-   
-   
-   
-   
-   
-   
-   
-  <!-- contact --> 
-  <section class="form-section p-5" id="contact-section">
-    <h1 id="contact" class="mt-5 mb-4 text-center">Contact Me</h1>
-    <div class="w-50 mx-auto">
+<!--skill carousel -->
+<h3 id="skill-set"> SKILL SET</h3>
+    <div class="container spacing">
+      
+<br>
+      <div id="carouselExampleIndicators" class="carousel slide myicon" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+        </ol>
+        <div class="row9 ">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img id="skills" src="/css/images/skills_ai.svg" alt="Illustrator">
+              <div class="carousel-icon">
+                <p id="descrit">ILLUSTRATOR</p>
+              </div>
+            </div>
 
-      <form action="post">
+            <div class="carousel-item">
+              <img id="skils" src="/css/images/skills_ps.svg" alt="Photoshop">
+              <p>PHOTOSHOP</p>
+            </div>
 
-        <div class="form-group row">
+            <div class="carousel-item">
+              <img id="skils" src="/css/images/skills_id.svg" alt="Indesign">
+              <p>InDESIGN</p>
+            </div>
 
-          <div class="col-md-6 p-2">
-            <input type="text" class="form-control" placeholder="Full name">
+            <div class="carousel-item">
+              <img id="skils" src="/css/images/skills_xd.svg" alt="xd">
+              <p>XD</p>
+            </div>
+
+            <div class="carousel-item">
+              <img id="skils" src="/css/images/skills_css.svg" alt="css">
+              <p>CSS</p>
+            </div>
+
+            <div class="carousel-item">
+              <img id="skils" src="/css/images/skills_html.svg" alt="html">
+              <p>HTML</p>
+            </div>
           </div>
-
-          <div class="col-md-6 p-2">
-            <input type="email" class="form-control" placeholder="Email Address">
-          </div>
-
         </div>
 
-        <div class="form-group row">
 
-          <div class="col-md-12 p-2">
-            <input type="text" class="form-control" placeholder="Subject">
-          </div>
-
-        </div>
-
-        <div class="form-group row">
-
-          <div class="col-md-12 p-2">
-            <textarea class="form-control" rows="3" placeholder="Type your message here"></textarea>
-          </div>
-
-        </div>
-
-        <div class="form-group row">
-
-          <div class="col-md-12 text-center p-2">
-            <button type="submit" class="btn btn-primary button-colour" >Send Message</button>
-          </div>
-
-        </div>
-
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
     </div>
 
-    </form>
-  </section>
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-  <footer>
+    <!-- contact -->
+    <div class="form">
+      <section class="form-section p-5" id="contact-section">
+        <h1 id="contact" class="mt-5 mb-4 text-center">Contact Me</h1>
+        <div class="w-50 mx-auto">
 
-<div class="social"> 
-       <a href="https://www.behance.net/Diren8" target="_blank" rel="noopener noreferrer"><img src='/css/images/iconmonstr-behance-yellow.svg' onmouseover="this.src='/css/images/iconmonstr-behance-yellow.svg';" onmouseout="this.src='/css/images/iconmonstr-behance-5.svg';" / width="50pt"></a></a>
- 
-       <a href="https://www.linkedin.com/in/diren-naidoo-1a8830101//" target="_blank" rel="noopener noreferrer"><img src='/css/images/iconmonstr-linkedin-yellow.svg' onmouseover="this.src='/css/images/iconmonstr-linkedin-yellow.svg';" onmouseout="this.src='/css/images/iconmonstr-linkedin-5.svg';" / width="50pt"></a>
-    
-       <a href="https://www.instagram.com/diren_naidoo/" target="_blank" rel="noopener noreferrer"> <img src='/css/images/iconmonstr-instagram-yellow.svg' onmouseover="this.src='/css/images/iconmonstr-instagram-yellow.svg';" onmouseout="this.src='/css/images/iconmonstr-instagram-15.svg';" / width="50pt"></a>
-      </div>  
- </footer>
-   
+          <form action="post">
 
- 
+            <div class="form-group row">
+
+              <div class="col-md-6 p-2">
+                <input type="text" class="form-control" placeholder="Full name">
+              </div>
+
+              <div class="col-md-6 p-2">
+                <input type="email" class="form-control" placeholder="Email Address">
+              </div>
+
+            </div>
+
+            <div class="form-group row">
+
+              <div class="col-md-12 p-2">
+                <input type="text" class="form-control" placeholder="Subject">
+              </div>
+
+            </div>
+
+            <div class="form-group row">
+
+              <div class="col-md-12 p-2">
+                <textarea class="form-control" rows="3" placeholder="Type your message here"></textarea>
+              </div>
+
+            </div>
+
+            <div class="form-group row">
+
+              <div class="col-md-12 text-center p-2">
+                <button type="button" class="btn btn-primary button-colour" data-toggle="modal"
+                  data-target="#myModal">Send Message</button>
+                <div class="modal fade" id="myModal" role="dialog">
+                  <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content modal">
+                      <div class="modal-header">
+                        <h6 class="modal-title title1">Thank You</h6>
+                      </div>
+                      <div class="modal-body">
+                        <p>Please allow for 2-3 business days to reply</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+
+          </form>
+      </section>
+    </div>
+
+    <!-- footer section -->
+    <footer>
+
+      <div class="social">
+        <a href="https://www.behance.net/Diren8" target="_blank" rel="noopener noreferrer"><img
+            src='/css/images/iconmonstr-behance-yellow.svg'
+            onmouseover="this.src='/css/images/iconmonstr-behance-yellow.svg';"
+            onmouseout="this.src='/css/images/iconmonstr-behance-5.svg';" / width="50pt"></a></a>
+
+        <a href="https://www.linkedin.com/in/diren-naidoo-1a8830101//" target="_blank" rel="noopener noreferrer"><img
+            src='/css/images/iconmonstr-linkedin-yellow.svg'
+            onmouseover="this.src='/css/images/iconmonstr-linkedin-yellow.svg';"
+            onmouseout="this.src='/css/images/iconmonstr-linkedin-5.svg';" / width="50pt"></a>
+
+        <a href="https://www.instagram.com/diren_naidoo/" target="_blank" rel="noopener noreferrer"> <img
+            src='/css/images/iconmonstr-instagram-yellow.svg'
+            onmouseover="this.src='/css/images/iconmonstr-instagram-yellow.svg';"
+            onmouseout="this.src='/css/images/iconmonstr-instagram-15.svg';" / width="50pt"></a>
+      </div>
+    </footer>
+
+
+
     <!-- JS, Popper.js, and jQuery -->
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
-        crossorigin="anonymous">
-</script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+      </script>
 
-<script  src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" 
-        crossorigin="anonymous">
-</script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+      </script>
 
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" 
-        crossorigin="anonymous">
-</script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+      </script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+  </body>
+
 </html>
