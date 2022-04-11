@@ -157,12 +157,6 @@ color: #ffffff !important;
     justify-content: center;
   }
 
-  h4{
-    color: #ffe922;
-    font-size: 30px;
-    padding-left: 20px;
-  }
-  .r
 
   #animation1 img{
     transition: tranform .7s ease-in-out;
@@ -205,7 +199,12 @@ h3{
   justify-content: center;
 }
 
-ow9 {
+h4{
+  color: #ffe922;
+  font-size: 30px;
+  padding-left: 22px;
+}
+.row9 {
 text-align: center;
 }
 
