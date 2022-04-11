@@ -46,23 +46,23 @@ color: #ffffff !important;
   padding: 10px;
 }
 
-#mylogo{
+#myLogo{
     height: 15px;
 }
 
-#mylogoalt{
+#myLogoAlt{
   height: 15px;
 }
 
 /* media query */
 @media screen and (max-width: 992px) {
-  #mylogo{
+  #myLogo{
     display: none;
   }
 }
 
 @media screen and (min-width: 992px) {
-  #mylogoalt{
+  #myLogoAlt{
     display: none;
   }
 }
@@ -75,6 +75,11 @@ color: #ffffff !important;
 }
 
 /* into section */
+.introduction {
+  justify-content: center;
+  padding: 50px;
+  padding-top: 150px;
+}
 #intro{
   padding-bottom: 20px;
 }
@@ -110,19 +115,19 @@ color: #ffffff !important;
       padding-left: 25px;
   }
 
-  .column-3 {
-    flex: 10%;
-    padding-left: 60px;
-    position: relative;
+  .edu1{
+    padding: 50px;
+    padding-left: 100px;
+    justify-content: center;
   }
+  
+.edu2 {
+  padding: 50px;
+  justify-content: center;
+}
+ 
 
-  .column-4 {
-    flex:10%;
-    padding: 5px;
-    font-size: 20px;
-  }
-
-  #codespace {
+  #codeSpace {
       padding-top: 30px;
       padding-bottom: 30px;
       padding-left: 30px;
@@ -139,29 +144,39 @@ color: #ffffff !important;
 
   /* experience */
 
-  
-#workexperience {
-  padding-left: 20px;
-}
-.column-5{
-  padding: 10px;
-  padding-top: 120px;
-  padding-left: 50px;
-  padding-bottom: 200px;
-  font-size: 20px;
-}
-  .column-6 {
-  flex: 10%;
-  padding-top: 90px;
-  justify-content: center;
-  text-align: center;
-}
+  .exp1{
+    padding: 50px;
+    padding-left: 100px;
+    justify-content: center;
+    padding-top: 100px;
+  }
 
-  #ani img{
+  .exp2{
+    padding: 50px;
+    padding-left: 200px;
+    justify-content: center;
+  }
+
+  h4{
+    color: #ffe922;
+    font-size: 30px;
+    padding-left: 20px;
+  }
+  .r
+
+  #animation1 img{
     transition: tranform .7s ease-in-out;
   }
 
-  #ani a:hover img{
+  #animation1 a:hover img{
+    transform: rotate(360deg);
+  }
+
+  #animation2 img{
+    transition: tranform .7s ease-in-out;
+  }
+
+  #animation2 a:hover img{
     transform: rotate(360deg);
   }
 
@@ -190,11 +205,7 @@ h3{
   justify-content: center;
 }
 
-h4{
-  color: #ffe922;
-  font-size: 30px;
-}
-.row9 {
+ow9 {
 text-align: center;
 }
 
@@ -248,11 +259,11 @@ h6 {
 /* footer section */
   footer {
     background-color: #000000;
-    border: #ffe922 solid;
     text-align: center;
     color:#643939 ;
-    height: 60pt;
-    padding-top:  10pt;
-    padding-bottom: 0pt;
     font-display: black;
   }
+.jumbotron {
+  background-color: #000000;
+  border: #ffe922 solid;
+}
